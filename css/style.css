@@ -6,7 +6,7 @@
 html, body {
 	background:#fff;
 	font-size:12px;
-	font-family:"Cabin", serif;
+	font-family:"Oswald", serif;
 	min-width:960px;
 	margin:0;
 	padding:0;
@@ -37,8 +37,8 @@ html, body {
 /* SLIDER */
 #slider {
 	background:#000;
-	border:5px solid #fff;
-	box-shadow:1px 1px 5px rgba(0,0,0,0.7);
+	border:2px solid #000;
+	/*box-shadow:1px 1px 5px rgba(0,0,0,0.7);*/
 	height:320px;
 	width:680px;
 	margin:40px auto 0;
@@ -84,7 +84,7 @@ html, body {
 }
 
 #slider .tooltip {
-	background: #ffffff;
+	background: #000;
 	width:300px;
 	height:60px;
 	position:relative;
@@ -94,7 +94,7 @@ html, body {
 	-webkit-transition:all 0.3s ease-in-out;  
 }
 #slider .tooltip h1 {
-	color:#000;
+	color:#fff;
 	font-size:24px;
 	line-height:60px;
 	padding:0 0 0 20px;
@@ -121,7 +121,7 @@ html, body {
 	top:-10px;
 	width:680px; 
 	height:10px;
-	background:#000;
+	background:#FF0A64;
 	-moz-animation:fullexpand 25s ease-out infinite;
 	-webkit-animation:fullexpand 25s ease-out infinite;
 }
