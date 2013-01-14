@@ -4,10 +4,52 @@
   <meta charset="utf-8">
   <title>No JS Slideshow</title>
   <link rel="stylesheet" href="css/style.css?v=1.0">
+  <link href='http://fonts.googleapis.com/css?family=Cabin' rel='stylesheet' type='text/css'>
   <!--[if lt IE 9]>
   <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
   <![endif]-->
 </head>
 <body>
+
+<div class="container">
+   <div id="content-slider">
+      <div id="slider">  <!-- Slider container -->
+         <div id="mask">  <!-- Mask -->
+
+         <ul>
+         <li id="first" class="firstanimation">  <!-- ID for tooltip and class for animation -->
+         <a href="#"> <img src="img/slide1.jpg" alt="Show"/> </a>
+         <div class="tooltip"> <h1>Show 1</h1> </div>
+         </li>
+ 
+         <li id="second" class="secondanimation">
+         <a href="#"> <img src="img/slide2.jpg" alt="Show"/> </a>
+         <div class="tooltip"> <h1>Show 2</h1> </div>
+         </li>
+
+         <li id="third" class="thirdanimation">
+         <a href="#"> <img src="img/slide3.jpg" alt="Show"/> </a>
+         <div class="tooltip"> <h1>Show 3</h1> </div>
+         </li>
+
+         <li id="fourth" class="fourthanimation">
+         <a href="#"> <img src="img/slide4.jpg" alt="Show"/> </a>
+         <div class="tooltip"> <h1>Show 4</h1> </div>
+         </li>
+
+         <li id="fifth" class="fifthanimation">
+         <a href="#"> <img src="img/slide5.jpg" alt="Show"/> </a>
+         <div class="tooltip"> <h1>Show 5</h1> </div>
+         </li>
+
+         </ul>
+
+         </div>  <!-- End Mask -->
+         <div class="progress-bar"></div>  <!-- Progress Bar -->
+      </div>  <!-- End Slider Container -->
+   </div>
+</div>
+
+
 </body>
 </html>
