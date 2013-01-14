@@ -106,7 +106,9 @@ html, body {
 #slider li#fifth:hover .tooltip {
 	left:0px;
 }
-/*#slider:hover li, 
+
+/* remove the 'stop animation on hover'
+#slider:hover li, 
 #slider:hover .progress-bar {
 	-moz-animation-play-state:paused;
 	-webkit-animation-play-state:paused;
